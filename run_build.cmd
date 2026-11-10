@@ -1,0 +1,5 @@
+@echo off
+set "JAVA_HOME=C:\Program Files\Java\jdk-21"
+set "PATH=%JAVA_HOME%\bin;%PATH%"
+cd /d "C:\Users\hp\Desktop\labs\Tp19-cours2"
+call mvn clean test
